@@ -32,7 +32,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	0c74f5d01be449a3dcaa336db1cd0d99"></script>
+
   <!-- =======================================================
   * Template Name: Yummy
   * Updated: Jan 09 2024 with Bootstrap v5.3.2
@@ -47,14 +47,6 @@
 <%@include file="include/header.jsp" %>
 <!-- End Header -->
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-  	<div id="search">
-	<input name="input_search" type="text" class="input_search" placeholder="검색어를 입력하세요.">
-	<input type="button" value="검색" class="button_search">
-  	</div>
-
-  </section>
-  <!-- 
   <section id="hero" class="hero d-flex align-items-center section-bg" style="background-image: url('assets/img/campBridge3.jpg')">
     <div class="container">
       <div class="row justify-content-between gy-5">
@@ -72,7 +64,6 @@
       </div>
     </div>
   </section><!-- End Hero Section -->
-
 
   <main id="main">
 
@@ -892,28 +883,9 @@
           <p>Need Help? <span>Contact Us</span></p>
         </div>
 
-        <div id="map" style="width:100%; height:350px;">
-          <!-- 
-          <iframe style="border:0; width: 100%; height: 350px;" src=""//dapi.kakao.com/v2/maps/sdk.js?appkey=0c74f5d01be449a3dcaa336db1cd0d99" frameborder="0" allowfullscreen></iframe>
-           -->
-      </div><!-- End Google Maps -->
-      <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0c74f5d01be449a3dcaa336db1cd0d99"></script>
-        <script>
-      		  var mapContainer = document.getElementById('map'),
-        		 mapOption = {
-      			 center: new kakao.maps.LatLng(37.48549, 126.8982),
-        				level:3
-      		  };
-      		var map = new kakao.maps.Map(mapContainer, mapOption); 
-      		var markerPosition  = new kakao.maps.LatLng(37.48549, 126.8982); 
-      		var marker = new kakao.maps.Marker({
-      		    position: markerPosition
-      		});
-      		marker.setMap(map);
-
-
-        
-        </script>
+        <div class="mb-3">
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        </div><!-- End Google Maps -->
 
         <div class="row gy-4">
 
@@ -961,6 +933,28 @@
 
         </div>
 
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+          <div class="row">
+            <div class="col-xl-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-xl-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form><!--End Contact Form -->
 
       </div>
     </section><!-- End Contact Section -->

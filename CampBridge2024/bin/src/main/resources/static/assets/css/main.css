@@ -304,10 +304,6 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Desktop Navigation
---------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
@@ -378,7 +374,6 @@ section {
   .navbar li:hover>a {
     color: #000;
   }
-
 
   .navbar .dropdown ul {
     display: block;
@@ -458,7 +453,6 @@ section {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-/*
 @media (max-width: 1279px) {
   .navbar {
     position: fixed;
@@ -569,7 +563,6 @@ section {
     z-index: 9996;
   }
 }
-*/
 
 /*--------------------------------------------------------------
 # About Section
@@ -1488,31 +1481,10 @@ section {
     transform: rotate(360deg);
   }
 }
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
-#hero{
-		position:relative;
-        width:500px;
-        margin: auto;
-        line-height:200px;
-}
-.input_search{
-        width:400px;
-        height:40px;
-        border: 2px solid rgb(78, 227, 119);
-      }
-
-.button_search{
-        height:42px;
-        background-color:rgb(64, 219, 52);
-        position:relative;
-        left:-5px;
-       
-      }
-
-/*
 .hero {
   width: 100%;
   background-size: cover;
@@ -1591,7 +1563,7 @@ section {
     font-size: 14px;
   }
 }
-*/
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

@@ -16,7 +16,7 @@
 	        <!-- <img src="assets/img/logo.png" alt=""> -->
 	        <h1>CampBridge<span>.</span></h1>
 	      </a>
-
+	
 	      <nav id="navbar" class="navbar">
 	        <ul>
 	          <li class="dropdown"><a href="#hero">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -25,7 +25,7 @@
 		              <li><a href="#">개발팀 소개</a></li>
 		          </ul>
 	          </li>
-	          <li class="dropdown"><a href="#">캠핑장 검색</a>
+	          <li class="dropdown"><a href="#">캠핑장 검색<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 	          	<ul>
 		            <li><a href="#">캠핑장 검색</a></li>
 		            <li><a href="#">지도 검색</a></li>
@@ -33,7 +33,7 @@
 		        </ul>
 	          </li>
 	          <li><a href="#menu">테마검색</a></li>
-	          <li class="dropdown"><a href="#"><span>커뮤니티</span></a>
+	          <li class="dropdown"><a href="#"><span>커뮤니티</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
 	            <ul>
 	              <li><a href="#">파티원모집</i></a></li>
 		          <li><a href="#">캠핑꿀팁(NowHow)</a></li>
@@ -41,7 +41,7 @@
 	              <li><a href="#">자유게시판</a></li>
 	            </ul>
 	          </li>
-	          <li class="dropdown"><a href="#chefs">리뷰</a>
+	          <li class="dropdown"><a href="#chefs">리뷰<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		          <ul>
 		              <li><a href="#">캠핑장 리뷰</a></li>
 		              <li><a href="#">캠핑용품 리뷰</i></a></li>
