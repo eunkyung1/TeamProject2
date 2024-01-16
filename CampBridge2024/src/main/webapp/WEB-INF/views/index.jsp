@@ -31,7 +31,8 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main2.css" rel="stylesheet">
+  <link href="assets/css/header.css" rel="stylesheet">
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	0c74f5d01be449a3dcaa336db1cd0d99"></script>
   <!-- =======================================================
   * Template Name: Yummy
@@ -46,13 +47,13 @@
 <!-- ======= Header ======= -->
 <%@include file="include/header.jsp" %>
 <!-- End Header -->
+
+
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-  	<div id="search">
-	<input name="input_search" type="text" class="input_search" placeholder="검색어를 입력하세요.">
-	<input type="button" value="검색" class="button_search">
-  	</div>
-
+<div id="id47f855e105530" a='{"t":"r","v":"1.2","lang":"ko","locs":[295],"ssot":"c","sics":"ds","cbkg":"rgb(69,90,100)","cfnt":"#FFFFFF","codd":"rgb(84,110,122)","cont":"#E0E0E0"}'>날씨 데이터 소스: 
+<a href="https://sharpweather.com/weather_south_korea/30_days/">weather South Korea 30 days</a></div>
+<script async src="https://static1.sharpweather.com/widgetjs/?id=id47f855e105530"></script>
   </section>
   <!-- 
   <section id="hero" class="hero d-flex align-items-center section-bg" style="background-image: url('assets/img/campBridge3.jpg')">
@@ -75,6 +76,50 @@
 
 
   <main id="main">
+  
+      <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Events</h2>
+          <p>Share <span>Your Moments</span> In Our Restaurant</p>
+        </div>
+
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
+              <h3>Custom Parties</h3>
+              <div class="price align-self-start">$99</div>
+              <p class="description">
+                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
+              <h3>Private Parties</h3>
+              <div class="price align-self-start">$289</div>
+              <p class="description">
+                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
+              <h3>Birthday Parties</h3>
+              <div class="price align-self-start">$499</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p>
+            </div><!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+  
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -121,13 +166,15 @@
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
+    <!--  
       <div class="container" data-aos="fade-up">
+    -->
 
         <div class="row gy-4">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="why-box">
-              <h3>Why Choose Yummy?</h3>
+              <h3>배고프니?</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
                 Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
@@ -682,70 +729,34 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
-      <div class="container-fluid" data-aos="fade-up">
 
-        <div class="section-header">
-          <h2>Events</h2>
-          <p>Share <span>Your Moments</span> In Our Restaurant</p>
-        </div>
-
-        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
-              <h3>Custom Parties</h3>
-              <div class="price align-self-start">$99</div>
-              <p class="description">
-                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
-              </p>
-            </div><!-- End Event item -->
-
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
-              <h3>Private Parties</h3>
-              <div class="price align-self-start">$289</div>
-              <p class="description">
-                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
-              </p>
-            </div><!-- End Event item -->
-
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
-              <h3>Birthday Parties</h3>
-              <div class="price align-self-start">$499</div>
-              <p class="description">
-                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
-              </p>
-            </div><!-- End Event item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Events Section -->
 
     <!-- ======= Chefs Section ======= -->
     <section id="chefs" class="chefs section-bg">
+    
       <div class="container" data-aos="fade-up">
+  
 
         <div class="section-header">
           <h2>Chefs</h2>
           <p>Our <span>Proffesional</span> Chefs</p>
         </div>
 
-        <div class="row gy-4">
-
+        <div class="row gy-4\">
+		 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+		
             <div class="chef-member">
               <div class="member-img">
                 <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+               <!--  
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
+               -->
               </div>
               <div class="member-info">
                 <h4>Walter White</h4>
@@ -891,12 +902,11 @@
           <h2>Contact</h2>
           <p>Need Help? <span>Contact Us</span></p>
         </div>
-
+	
         <div id="map" style="width:100%; height:350px;">
-          <!-- 
-          <iframe style="border:0; width: 100%; height: 350px;" src=""//dapi.kakao.com/v2/maps/sdk.js?appkey=0c74f5d01be449a3dcaa336db1cd0d99" frameborder="0" allowfullscreen></iframe>
-           -->
+        
       </div><!-- End Google Maps -->
+		 <!-- 
       <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0c74f5d01be449a3dcaa336db1cd0d99"></script>
         <script>
       		  var mapContainer = document.getElementById('map'),
@@ -910,6 +920,7 @@
       		    position: markerPosition
       		});
       		marker.setMap(map);
+			  -->
 
 
         

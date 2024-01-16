@@ -16,6 +16,16 @@ public class FController {
 		return "nList";
 	}// nList()
 	
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}// nList()
+	
+	@GetMapping("/campsearch")
+	public String campsearch() {
+		return "campsearch";
+	}// nList()
+	
 	
 
 }// FController
