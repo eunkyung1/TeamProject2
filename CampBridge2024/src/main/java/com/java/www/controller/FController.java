@@ -26,6 +26,11 @@ public class FController {
 		return "campsearch";
 	}// nList()
 	
+	@GetMapping("/weather")
+	public String weather() {
+		return "weather";
+	}// nList()
+	
 	
 
 }// FController

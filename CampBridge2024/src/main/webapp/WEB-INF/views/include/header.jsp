@@ -31,7 +31,7 @@
 	        <ul>
 	          <li class="dropdown"><a href="#">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		          <ul>
-		              <li><a href="#">사이트 소개</a></li>
+		              <li><a href="/weather">사이트 소개</a></li>
 		              <li><a href="#">개발팀 소개</a></li>
 		          </ul>
 	          </li>
