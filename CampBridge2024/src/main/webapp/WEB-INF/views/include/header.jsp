@@ -48,7 +48,7 @@
 	              <li><a href="#">파티원모집</a></li>
 		          <li><a href="#">캠핑꿀팁(NowHow)</a></li>
 	              <li><a href="#">중고거래&캠핑장 양도</a></li>
-	              <li><a href="#">자유게시판</a></li>
+	              <li><a href="/card">자유게시판</a></li>
 	            </ul>
 	          </li>
 	          <li class="dropdown"><a href="#">리뷰</a>

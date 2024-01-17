@@ -31,6 +31,11 @@ public class FController {
 		return "weather";
 	}// nList()
 	
+	@GetMapping("/card")
+	public String card() {
+		return "card";
+	}// nList()
+	
 	
 
 }// FController
