@@ -379,6 +379,9 @@ h6 {
   color: rgba(255, 255, 255, 0.9);
   position: relative;
 }
+.events.search_go{
+	
+}
 
 @media (min-width: 1200px) {
   .events .swiper-slide-active+.swiper-slide {

@@ -65,9 +65,8 @@
        	 <h2>Recommend</h2>
           <p><span>CampBridge</span> 추천</p>
         </div>
-          <p class="search_go"><a href="">더보기</a></p>
-
-        <div class="slides-3 swiper section-bg" data-aos="fade-up" data-aos-delay="100">
+          
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
@@ -96,6 +95,7 @@
 
           </div>
           <div class="swiper-pagination"></div>
+          <p class="search_go"><a href="#">더보기</a></p>
         </div>
 
       </div>
