@@ -32,6 +32,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+	margin:0;
+	padding:0;
+}
+
 section{
 	 text-align: center;
   		margin: 150px 50px;
@@ -327,21 +332,16 @@ h6 {
   }
 }
 /*--------------------------------------------------------------
-# recomment section (Events Section)
+# Events Section
 --------------------------------------------------------------*/
 .events .container-fluid {
   padding: 0;
-}
-
-.events .swiper-wrapper{
-	margin-top:20px;
 }
 
 .events .section-bg{
 	width:1200px;
 	
 }
-.search_go{float:right; font-size:22px;}
 
 .events .event-item {
   background-size: cover;
@@ -412,21 +412,16 @@ h6 {
   background-color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 
+/*--------------------------------------------------------------
+# hero
+--------------------------------------------------------------*/
 #hero1{
 		position:relative;
-      	margin: 150px 50px;
-      	margin-top:-10%
-      	
+        margin:0 auto;
+        margin:200px;
+        
 }
-#weather_bg{
-	width:1600px;
-	padding-left:150px;
-}
-
 
 
 /*--------------------------------------------------------------
@@ -536,10 +531,7 @@ h6 {
 .testimonials{
 	padding:0;
 	margin-top:-10px;
-	width:1180px;
-	margin: 0 auto;
 }
-
 .main-list{
 	 list-style:none;
 }
@@ -597,6 +589,7 @@ h6 {
 
 
 .main-visual-news-section.first {
+	margin-left:11%
 }
 
 .main-visual-news-section.last {
@@ -738,14 +731,6 @@ h6 {
   font-size: 14px;
 }
 
-.info-item .contact_details{
-	margin: 0 auto;
-}
-
-.info-item .contact_details p{
-	font-size:20px;
-}
-
 .contact .info-item .social-links a {
   font-size: 24px;
   display: inline-block;
@@ -852,6 +837,15 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero1{
+	position:relative;
+   	margin: 150px 50px;
+   	margin-top:-10%
 }
 
 /*--------------------------------------------------------------

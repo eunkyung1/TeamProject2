@@ -39,7 +39,7 @@
 	          	<ul>
 		            <li><a href="/campsearch">캠핑장 검색</a></li>
 		            <li><a href="#">지도 검색</a></li>
-		            <li><a href="#">추천 검색</a></li>
+		            <li><a href="/recommendsearch">추천 검색</a></li>
 		        </ul>
 	          </li>
 	          <li><a href="#">테마검색</a></li>

@@ -36,6 +36,11 @@ public class FController {
 		return "card";
 	}// nList()
 	
+	@GetMapping("/recommendsearch")
+	public String recommendsearch() {
+		return "recommendsearch";
+	}// nList()
+	
 	
 
 }// FController

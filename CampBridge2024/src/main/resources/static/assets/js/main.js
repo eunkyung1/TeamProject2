@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
    * Review 
    */
   	var swiper = new Swiper(".mySwiper",{
-			slidesPerView : 3,
+			slidesPerView : 4,
 			spaceBetween: 30,
 			grabCursor : true,
 			autoplay: {

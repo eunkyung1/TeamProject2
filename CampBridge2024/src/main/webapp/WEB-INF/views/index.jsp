@@ -63,10 +63,12 @@
 
         <div class="section-header">
        	 <h2>Recommend</h2>
-          <p><span>CampBridge</span> 추천</p>
+          <p><span>CampBridge</span> 와 여행가자<i class="fa-solid fa-exclamation"></i>   <i class="fa-solid fa-trailer"></i></p>
         </div>
-          
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+        <div id="search_go_top">
+        <p class="search_go"><a href="#">더보기</a></p>  
+        </div>
           <div class="swiper-wrapper">
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
@@ -95,31 +97,35 @@
 
           </div>
           <div class="swiper-pagination"></div>
-          <p class="search_go"><a href="#">더보기</a></p>
+          
         </div>
 
       </div>
     </section><!-- End Events Section -->
     
+    <!-- 날씨 Section -->
       <section id="hero1">
   		<div class="section-header">
           <h2>Weather</h2>
-          <p><span>CampBridge</span>가 날씨 안내해드립니다.</p>
+          <p><i class="fa-solid fa-sun"></i><span> CampBridge</span> 날씨 </p>
         </div>
 		<div id="weather_bg"><div id="id47f855e105530" a='{"t":"r","v":"1.2","lang":"ko","locs":[295],"ssot":"c","sics":"ds","cbkg":"rgb(69,90,100)","cfnt":"#FFFFFF","codd":"rgb(84,110,122)","cont":"#E0E0E0"}'>날씨 데이터 소스: <a href="https://sharpweather.com/weather_south_korea/30_days/">weather South Korea 30 days</a></div>
         </div>
 		<script async src="https://static1.sharpweather.com/widgetjs/?id=id47f855e105530"></script>
   </section><!-- End hero1 Section -->
+    <!-- End 날씨 Section -->
   
   
  <!-- ======= Swiper ======= -->
 		 <div class="section-header">
        	 <h2>Review</h2>
-          <p><span>CampBridge</span> 리뷰</p>
+          <p><span>CampBridge</span> 리뷰 <i class="fa-solid fa-magnifying-glass"></i></p>
         </div>
+        
   	<section class="review_all">
 		<div class="swiper mySwiper container">
 			<div class="swiper-wrapper content1">
+				<!--  카드형 반복 -->
 				<div class="swiper-slide card1"> 
 					<div class="box1"></div>
 					<div class="card-content">
@@ -139,13 +145,13 @@
 						<i class="fa-solid fa-star"></i>
 					</div>
 					<div class="main_about">
-						<p>여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!</p>
+						<p>여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!</p>
 					</div>
 					<div class="button b1">
 						<button class="review_moredetail">더보기</button>
 					</div>
 				</div>
-				
+				<!-- 반복 끝 -->
 				
 				<div class="swiper-slide card1">
 					<div class="box1"></div>
@@ -215,11 +221,11 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
+						<i class="fa-regular fa-star"></i>
 					</div>
 					<div class="main_about">
-						<p>여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!</p>
+						<p>졸려서 졸립고 졸립다</p>
 					</div>
 					<div class="button b1">
 						<button class="review_moredetail">더보기</button>
@@ -241,10 +247,10 @@
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
 						<i class="fa-solid fa-star"></i>
-						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
 					</div>
 					<div class="main_about">
-						<p>여기는 너무 좋고 좋아서 좋지만 좋으니 사랑해서 다시 사랑할 때!</p>
+						<p>여기가 좋으니깐 좋다고 이야기를 하죠!</p>
 					</div>
 					<div class="button b1">
 						<button class="review_moredetail">더보기</button>
@@ -264,7 +270,7 @@
 
         <div class="section-header">
           <h2>RENT</h2>
-          <p><span>CampBridge</span> 대여해드려요</p>
+          <p><span> CampBridge   </span><i class="fa-solid fa-tents"></i>  대여해드려요</p>
         </div>
 
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -485,7 +491,7 @@
 
         <div class="section-header">
           <h2>NOTICE</h2>
-          <p> <span>CampBridge</span>가 알려드려요.</p>
+          <p><i class="fa-solid fa-bullhorn"></i><span>  CampBridge</span>가 알려드려요.</p>
         </div>
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -568,6 +574,7 @@
 	      </div><!-- End main-visual-news-section last -->
 
       </div>
+     </div> 
     </section><!-- End Testimonials Section -->
 
 
@@ -579,7 +586,7 @@
 
         <div class="section-header">
           <h2>Contact</h2>
-          <p><span>CampBridge</span> Contact</p>
+          <p><span> CampBridge </span>Contact <i class="fa-solid fa-phone-flip"></i></p>
         </div>
 	
         <div id="map" style="width:100%; height:350px;">
@@ -599,18 +606,18 @@
       		    position: markerPosition
       		});
       		marker.setMap(map);
-			  -->
 
 
         
         </script>
+			  -->
 
         <div class="row gy-4">
 
           <div class="col-md-6">
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-map flex-shrink-0"></i>
-              <div>
+              <div class="contact_details">
                 <h3>회사주소</h3>
                 <p>08378 서울 구로구 디지털로34길 27<br> (구로동) 1106-7호 한국직업전문학교<br><strong>[항공 5기] 손발이 Do it팀</strong></p>
               </div>
@@ -620,7 +627,7 @@
           <div class="col-md-6">
             <div class="info-item d-flex align-items-center">
               <i class="icon bi bi-envelope flex-shrink-0"></i>
-              <div>
+              <div class="contact_details">
                 <h3>Email(이메일)</h3>
                 <p>campBridge@example.com</p>
               </div>
@@ -630,7 +637,7 @@
           <div class="col-md-6">
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-telephone flex-shrink-0"></i>
-              <div>
+              <div class="contact_details">
                 <h3>연락처</h3>
                 <p>02)7777-7777</p>
               </div>
@@ -640,7 +647,7 @@
           <div class="col-md-6">
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-share flex-shrink-0"></i>
-              <div>
+              <div class="contact_details">
                 <h3>서비스 상담</h3>
                 <div>월(Mon)-금(Fri) : <strong>10AM - 18PM</strong><br>
                   주말(Weekend) : <strong>자동음성 안내</strong>
