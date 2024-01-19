@@ -57,7 +57,7 @@
   <main id="main">
 
   
-      <!-- ======= Events Section ======= -->
+      <!-- ======= 추천 캠핑 Section (Events Section) ======= -->
     <section id="events" class="events">
       <div class="container-fluid" data-aos="fade-up">
 
@@ -71,7 +71,7 @@
         </div>
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/main/events-1.jpg)">
               <h3>(주)아웃오브파크</h3>
               <div class="price align-self-start">강원도</div>
               <p class="description">
@@ -79,7 +79,7 @@
               </p>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/main/events-2.jpg)">
               <h3>동강전망휴양림오토캠핑장</h3>
               <div class="price align-self-start">강원도</div>
               <p class="description">
@@ -87,7 +87,7 @@
               </p>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/main/events-3.jpg)">
               <h3>충주카누캠핑장</h3>
               <div class="price align-self-start">충청북도</div>
               <p class="description">
@@ -101,22 +101,10 @@
         </div>
 
       </div>
-    </section><!-- End Events Section -->
-    
-    <!-- 날씨 Section -->
-      <section id="hero1">
-  		<div class="section-header">
-          <h2>Weather</h2>
-          <p><i class="fa-solid fa-sun"></i><span> CampBridge</span> 날씨 </p>
-        </div>
-		<div id="weather_bg"><div id="id47f855e105530" a='{"t":"r","v":"1.2","lang":"ko","locs":[295],"ssot":"c","sics":"ds","cbkg":"rgb(69,90,100)","cfnt":"#FFFFFF","codd":"rgb(84,110,122)","cont":"#E0E0E0"}'>날씨 데이터 소스: <a href="https://sharpweather.com/weather_south_korea/30_days/">weather South Korea 30 days</a></div>
-        </div>
-		<script async src="https://static1.sharpweather.com/widgetjs/?id=id47f855e105530"></script>
-  </section><!-- End hero1 Section -->
-    <!-- End 날씨 Section -->
+    </section><!-- End 추천캠핑 Section -->
+   
   
-  
- <!-- ======= Swiper ======= -->
+ <!-- ======= review Section(Swiper) ======= -->
 		 <div class="section-header">
        	 <h2>Review</h2>
           <p><span>CampBridge</span> 리뷰 <i class="fa-solid fa-magnifying-glass"></i></p>
@@ -262,9 +250,24 @@
 		<div class="swiper-button-next"></div>
 		<div class="swiper-button-prev"></div>
 		<div class="swiper-pagination"></div>
-	</section>
+	</section><!-- End Review section  -->
 
-    <!-- ======= Menu Section ======= -->
+  <!-- 날씨 Section -->
+      <section id="hero1">
+  		<div class="section-header">
+          <h2>Weather</h2>
+          <p><i class="fa-solid fa-sun"></i><span> CampBridge</span> 날씨 </p>
+        </div>
+		<div id="weather_bg"><div id="id47f855e105530" a='{"t":"r","v":"1.2","lang":"ko","locs":[295],"ssot":"c","sics":"ds","cbkg":"rgb(69,90,100)","cfnt":"#FFFFFF","codd":"rgb(84,110,122)","cont":"#E0E0E0"}'>날씨 데이터 소스: <a href="https://sharpweather.com/weather_south_korea/30_days/">weather South Korea 30 days</a></div>
+        </div>
+		<script async src="https://static1.sharpweather.com/widgetjs/?id=id47f855e105530"></script>
+  </section><!-- End hero1 Section -->
+    <!-- End 날씨 Section -->
+
+
+
+
+    <!-- ======= Rent Section(Menu Section) ======= -->
     <section id="menu" class="menu">
       <div class="container" data-aos="fade-up">
 
@@ -487,13 +490,17 @@
         </div>
 
       </div>
-    </section><!-- End Menu Section -->
+    </section><!-- End Rent Section -->
 
         <div class="section-header">
           <h2>NOTICE</h2>
           <p><i class="fa-solid fa-bullhorn"></i><span>  CampBridge</span>가 알려드려요.</p>
         </div>
-    <!-- ======= Testimonials Section ======= -->
+        
+        
+        
+        
+    <!-- ======= Notice(캠핑꿀팁, 자유게시판, 공지사항) (Testimonials Section) ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
       
@@ -501,7 +508,7 @@
 	      	
 	      	<h3 class="main-visual-news-title notice">캠핑꿀팁</h3>
 	        <div class="main-visual-news-txt">
-	          <ul class="main-list">
+	          <ul class="notice-main-list">
 	          
 	          	<li class="main-list-item">
 	          	   <a href="#">2024 스카이트랙스 최고공항상 투표에 참여해주세요!</a>
@@ -589,10 +596,10 @@
           <p><span> CampBridge </span>Contact <i class="fa-solid fa-phone-flip"></i></p>
         </div>
 	
-        <div id="map" style="width:100%; height:350px;">
-        
-      </div><!-- End Google Maps -->
-		 <!-- 
+        <div id="map" style="width:100%; height:350px;"></div>
+      
+      
+		 <!-- 카카오지도 위치 
       <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0c74f5d01be449a3dcaa336db1cd0d99"></script>
         <script>
       		  var mapContainer = document.getElementById('map'),
@@ -606,9 +613,6 @@
       		    position: markerPosition
       		});
       		marker.setMap(map);
-
-
-        
         </script>
 			  -->
 
@@ -663,6 +667,9 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
+
+
+
 
   <!-- ======= Footer ======= -->
   <%@include file="include/footer.jsp" %>

@@ -33,8 +33,8 @@
 # General
 --------------------------------------------------------------*/
 section{
-	 text-align: center;
-  		margin: 150px 50px;
+	text-align: center;
+  	margin: 150px 50px;
 }
 
 body {
@@ -327,7 +327,7 @@ h6 {
   }
 }
 /*--------------------------------------------------------------
-# recomment section (Events Section)
+# recommend section (Events Section)
 --------------------------------------------------------------*/
 .events .container-fluid {
   padding: 0;
@@ -337,10 +337,7 @@ h6 {
 	margin-top:20px;
 }
 
-.events .section-bg{
-	width:1200px;
-	
-}
+
 .search_go{float:right; font-size:22px;}
 
 .events .event-item {
@@ -384,9 +381,7 @@ h6 {
   color: rgba(255, 255, 255, 0.9);
   position: relative;
 }
-.events.search_go{
-	
-}
+
 
 @media (min-width: 1200px) {
   .events .swiper-slide-active+.swiper-slide {
@@ -413,24 +408,28 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Review Section -> main_swiper1.css 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Weather Section
 --------------------------------------------------------------*/
 
 #hero1{
 		position:relative;
       	margin: 150px 50px;
-      	margin-top:-10%
       	
 }
 #weather_bg{
-	width:1600px;
+	width:1470px;
 	padding-left:150px;
+	margin-left:90px;
 }
 
 
 
 /*--------------------------------------------------------------
-# Menu Section
+# Rent Section
 --------------------------------------------------------------*/
 .menu .nav-tabs {
   border: 0;
@@ -507,6 +506,7 @@ h6 {
 .menu .tab-content .menu-item .menu-img {
   padding: 0 60px;
   margin-bottom: 15px;
+  height:250px;
 }
 
 .menu .tab-content .menu-item h4 {
@@ -531,7 +531,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Testimonials Section
+# Notice(캠핑꿀팁, 자유게시판, 공지사항) Section
 --------------------------------------------------------------*/
 .testimonials{
 	padding:0;
@@ -539,8 +539,11 @@ h6 {
 	width:1180px;
 	margin: 0 auto;
 }
+#testimonials{
+	margin:0 auto;
+}
 
-.main-list{
+.notice-main-list{
 	 list-style:none;
 }
 .main-visual-news-inner {
@@ -594,10 +597,6 @@ h6 {
   left: 0;
 }
 
-
-
-.main-visual-news-section.first {
-}
 
 .main-visual-news-section.last {
 	border-right:none;
@@ -693,12 +692,6 @@ h6 {
 .main-visual-news-txt.tab.on {
   display: block;
 }
-
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
-
-
 
 /*--------------------------------------------------------------
 # Contact Section

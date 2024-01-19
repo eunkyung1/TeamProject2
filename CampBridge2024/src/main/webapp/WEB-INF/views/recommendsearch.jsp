@@ -29,7 +29,6 @@
 	    <!-- Template Main CSS File -->
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
-		<link href="assets/css/listStyle.css" rel="stylesheet">
 	    <link href="assets/css/recommendsearch.css" rel="stylesheet">
 	</head>
 	<body>
@@ -38,12 +37,14 @@
 	
 		<section class="notice_search_cardstyle">
 			<!-- 캠핑장 검색 -->
+				<img src="/assets/img/icon/recommend_icon.png">
 		    	<h1>추천 검색</h1>
 		   <!-- 카드형 리스트 -->
 		    <div class="list_wrap">
             <ul>
-
+			
 				<div class="list_wrap_theme_main">
+
 					<div class="list_wrap_theme_top">
 						<h2>일몰맛집</h2>
 					</div><!--End list_wrap_theme_top   -->

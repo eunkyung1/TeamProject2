@@ -41,6 +41,31 @@ public class FController {
 		return "recommendsearch";
 	}// nList()
 	
+	@GetMapping("/idpw_search")
+	public String idpw_search() {
+		return "idpw_search";
+	}// nList()
+	@GetMapping("/idpw_search2")
+	public String idpw_search2() {
+		return "idpw_search2";
+	}// nList()
+	
+	@GetMapping("/idsearch")
+	public String idsearch() {
+		return "idsearch";
+	}// nList()
+	
+	@GetMapping("/pwsearch")
+	public String pwsearch() {
+		return "pwsearch";
+	}// nList()
+	@GetMapping("/signUp02")
+	public String signUp02() {
+		return "signUp02";
+	}// nList()
+	
+
+	
 	
 
 }// FController

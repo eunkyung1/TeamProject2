@@ -18,7 +18,7 @@
 	      </a>
 	      <div class="login d-flex">
 	      <li><a href="/login">로그인</a></li>
-	      <li><a href="#">회원가입</a></li>
+	      <li><a href="/idpw_search">회원가입</a></li>
 	      <li><a href="nList">공지사항</a></li>
 	      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
 	      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
