@@ -273,7 +273,7 @@
 
         <div class="section-header">
           <h2>RENT</h2>
-          <p><span> CampBridge   </span><i class="fa-solid fa-tents"></i>  대여해드려요</p>
+          <p><span> CampBridge   </span><i class="fa-solid fa-tents"></i>대여해드려요 <span id="rent_more"><a href="#">더보기</a></span></p>
         </div>
 
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -496,19 +496,15 @@
           <h2>NOTICE</h2>
           <p><i class="fa-solid fa-bullhorn"></i><span>  CampBridge</span>가 알려드려요.</p>
         </div>
-        
-        
-        
-        
     <!-- ======= Notice(캠핑꿀팁, 자유게시판, 공지사항) (Testimonials Section) ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
       
 	      <div class="main-visual-news-section first">
 	      	
-	      	<h3 class="main-visual-news-title notice">캠핑꿀팁</h3>
+	      	<h3 class="main-visual-news-title notice">캠핑꿀팁(Tip)</h3>
 	        <div class="main-visual-news-txt">
-	          <ul class="notice-main-list">
+	          <ul class="main-list">
 	          
 	          	<li class="main-list-item">
 	          	   <a href="#">2024 스카이트랙스 최고공항상 투표에 참여해주세요!</a>
@@ -599,7 +595,7 @@
         <div id="map" style="width:100%; height:350px;"></div>
       
       
-		 <!-- 카카오지도 위치 
+		 <!-- 카카오지도 위치  -->
       <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0c74f5d01be449a3dcaa336db1cd0d99"></script>
         <script>
       		  var mapContainer = document.getElementById('map'),
@@ -614,7 +610,7 @@
       		});
       		marker.setMap(map);
         </script>
-			  -->
+			  
 
         <div class="row gy-4">
 

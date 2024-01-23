@@ -434,7 +434,15 @@ h6 {
 .menu .nav-tabs {
   border: 0;
 }
+.section-header p{
+	margin-left:65px;
+	
+}
 
+.section-header #rent_more{
+	font-size: 15px;
+	margin-left:auto;
+}
 .menu .nav-link {
   margin: 0 10px;
   padding: 10px 5px;

@@ -33,7 +33,7 @@
 	    <link href="assets/css/main2.css" rel="stylesheet">
 	    <link href="assets/css/header.css" rel="stylesheet">
 		<link href="assets/css/listStyle.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/login.css">
+        <link href="assets/css/login.css" rel="stylesheet">
         
     	<script>
 			$(function(){
@@ -108,18 +108,16 @@
                 </label>
                 <input type="button" value="Login" id="loginBtn">
                 <div id="find">
-                	<span><a href="/">아이디 찾기</a></span>
+                	<span><a href="/" >아이디 찾기</a></span>
                 	<span class="separator">|</span>
                 	<span><a href="/">비밀번호 찾기</a></span>
                 </div>
-	
-				
                 <hr class="line">
                 <input type="button" id="naverloginBtn" style="margin-bottom: 2px" >
                 <input type="button" id="kakaologinBtn" >
               	 <div id="my-signin2"></div>
               	<div class="ex_join">
-                <p class="askSingup">아직 계정이 없나요? &nbsp<span class="suGo"><a href="/">회원가입</a></span></p>
+                <p class="askSingup">아직 계정이 없나요? &nbsp<span class="suGo"><a href="signUp">회원가입</a></span></p>
               	</div>
             </form>
         </div>

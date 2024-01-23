@@ -39,7 +39,7 @@
 	<!-- End Header -->
 			<section class="signUp_02">
 					<img src="../assets/img/guide_icon.png">
-					<h1><span style="color:red;">회원님 ID</span>를 안내해드립니다..</h1>
+					<h1><span style="color:red;">회원님 ID</span>를 안내해드립니다!</h1>
 					
 					<div class="amount3">
 						<p>홍길동 회원님의 아이디 입니다.</p>

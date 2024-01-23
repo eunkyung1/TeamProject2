@@ -30,11 +30,7 @@
 	    <link href="assets/css/header.css" rel="stylesheet">
 		<link href="assets/css/signUp02.css" rel="stylesheet">
 	    
-	    <style>
-	    	.signUp_02 h1{font-weight: 700; text-align: center; margin-top:50px;}
-			.amount3 {position:relative; margin-top:80px; margin-left: auto; margin-right: auto; margin-bottom:80px; width:50%; border:6px #FFCE32 solid; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; overflow:hidden;}
-			.amount3 p {margin:50px 0 50px 0; font-size:25px; font-weight: 600; text-align: center; color:#868e94;}
-	    </style>
+	   
 	    
 	</head>
 	<body>
@@ -47,7 +43,7 @@
 					
 					<div class="amount3">
 						<p>홍길동님 가입을 축하드립니다!<br>캠브릿지에 가입해주셔서 감사합니다.</p>
-						<p class="signup_detail">저희 캠브릿지에서 행복한 시간 만드시기 바랍니다.</p>
+						<p class="signup_detail">저희 캠브릿지에서 행복한 추억 만드시기 바랍니다.</p>
 						
 					</div>
 					
